@@ -1,13 +1,5 @@
-Hello Created By Abdalluh Essam 🇪🇬🇪🇬🇪
-abdallhesam100@gmail.com
-
-
-
-
 # naqqas
 
-
-🚀 Clean Architecture Flutter Project Generated Automatically
 
 
 ## Structure
@@ -21,15 +13,17 @@ lib/
 │   ├── errors
 │   ├── utils
 │   ├── services
+|   ├──screens
 │   ├── routing
 │   ├── theme
 │   ├── cubit
-│   └── extensions
+|   ├── extensions
+│   └── widgets
 ├── features/
-│   ├── splash
 │   ├── onboarding
 │   ├── auth
 │   └── home
+
 ├── app.dart
 ├── main.dart
 └── app_bloc_observer.dart
