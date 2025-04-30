@@ -30,18 +30,5 @@ lib/
 ```
 
 
-## Getting Started
-```bash
-flutter pub get
-flutter run
-```
 
-
----
-
-
-✅ Built with ❤️ using the Clean Architecture Generator
-
-
-Hello Created By Abdalluh Essam 🇪🇬🇪🇬🇪
 # NAQQAS
