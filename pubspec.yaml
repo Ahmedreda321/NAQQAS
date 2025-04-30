@@ -1,0 +1,72 @@
+name: naqqas
+description: "A new Flutter project."
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  animate_do: ^4.2.0
+  animator: ^3.3.0
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  dio: ^5.8.0+1
+  easy_localization: ^3.0.7+1
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  flutter_bloc: ^9.1.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.5
+  flutter_screenutil: ^5.9.3
+  flutter_secure_storage: ^9.2.4
+  flutter_svg: ^2.1.0
+  freezed_annotation: ^3.0.0
+  get_it: ^8.0.3
+  google_fonts: ^6.2.1
+  google_sign_in: ^6.3.0
+  intl: null
+  json_annotation: ^4.9.0
+  logger: ^2.5.0
+  lottie: ^3.3.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  freezed: ^3.0.4
+  json_serializable: ^6.6.2
+  mockito: ^5.3.2
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/svgs/icons/
+    - assets/lottie/
+    - assets/lang/
+
+  # Fonts
+  fonts:
+    - family: InstrumentSans
+      fonts:
+        - asset: assets/fonts/InstrumentSans/InstrumentSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/InstrumentSans/InstrumentSans-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/InstrumentSans/InstrumentSans-Regular.ttf
+          weight: 400
+flutter_assets:
+  assets_path:
+    - assets/images/
+    - assets/svgs/icons/
+  output_path: lib/core/constants/
+  filename: app_assets.dart
